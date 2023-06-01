@@ -8,4 +8,5 @@ public interface AuthorService {
     AuthorDto getByNameV1(String name);
     AuthorDto getByNameV2(String name);
     List<AuthorDto> getByNameV3(String name);
+    List<AuthorDto> getAllAuthors();
 }
